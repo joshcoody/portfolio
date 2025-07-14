@@ -1,0 +1,16 @@
+{
+  "record": {
+    "hosts": [
+      "localhost",
+      "127.0.0.1",
+      "10.0.0.3",
+      "local.joshcoody.com",
+      "0.0.0.0"
+    ],
+    "hash": {
+      "key": "b0c639843ccdc3d3c6ff25685b9c70179f24d8eb17b74a1e99f8e0bdcac9899c",
+      "cert": "34227290eef32d3c63e3f988105508f50fe7616241c1b977b15516682d985143"
+    }
+  },
+  "configFilePath": "/Users/joshcoody/projects/portfolio/cert/config.json"
+}
