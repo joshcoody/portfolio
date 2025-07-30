@@ -23,4 +23,8 @@ code {
   details > * {
     display: block !important;
   }
+
+  * {
+    print-color-adjust: exact;
+  }
 }

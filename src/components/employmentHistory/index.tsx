@@ -13,7 +13,25 @@ export const EmploymentHistory: React.FC = () => {
         employmentRange={{
           start: Temporal.PlainDate.from('2018-12-17'),
         }}
-      ></EmploymentRecord>
+      >
+        <p>
+          Lead front end developer that designed and built multiple internal
+          tools that are used by everyone at the company. The tools are focused
+          around incident analysis and prevention, which help users figure out
+          what happened, when it happened, what caused it, and how to prevent it
+          from happening again. The data gathered from the tools are shared in
+          reports that are reviewed weekly by the company.
+        </p>
+        <p>
+          Established linting rules based off best practices, and built a
+          component library to simplify development for the rest of the team who
+          may not be front end focused in an effort to force multiply.
+        </p>
+        <p>
+          Technical resource for any questions related to anything front end or
+          Node.JS related.
+        </p>
+      </EmploymentRecord>
 
       <EmploymentRecord
         companyName="RPU Metrics"
