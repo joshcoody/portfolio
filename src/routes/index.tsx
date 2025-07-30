@@ -44,8 +44,6 @@ function App() {
           </Section>
         </aside>
       </div>
-      <br />
-      <br />
     </div>
   );
 }
