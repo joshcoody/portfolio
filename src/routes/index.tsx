@@ -3,6 +3,7 @@ import { SiteHeader } from '@/components';
 import { Section } from '@/components/section';
 import { EmploymentHistory } from '@/components/employmentHistory';
 import { Skill } from '@/components/skill';
+import { EmploymentRecord } from '@/components/employmentRecord';
 
 export const Route = createFileRoute('/')({
   component: App,
@@ -44,6 +45,30 @@ function App() {
           </Section>
         </aside>
       </div>
+
+      <Section headerText="Education">
+        <p>Bachelor of Science Degree in Web Design & Interactive Media</p>
+        <p>The Art Institute of Fort Lauderdale from 2009 - 2012</p>
+        <p>Magna Cum Laude, President's List, Dean's List</p>
+      </Section>
+      <Section headerText="Internships">
+        <EmploymentRecord
+          companyName="Artemis Design Group"
+          employmentRange={{
+            start: Temporal.PlainDate.from('2012-01-01'),
+            end: Temporal.PlainDate.from('2012-06-30'),
+          }}
+          jobTitle="Web Designer"
+        >
+          <p>
+            Took website designs and transferred them to HTML and CSS. Improved
+            existing websites for various clients. Solved technical problems.
+          </p>
+        </EmploymentRecord>
+      </Section>
+      <Section headerText="References">
+        <p>References available upon request</p>
+      </Section>
     </div>
   );
 }
